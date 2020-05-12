@@ -1,0 +1,40 @@
+{
+    "name": "aspired/sam-nadzor",
+    "type": "project",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/gleb-mihalkov/bitrix-models"
+      },
+      {
+        "type": "vcs",
+        "url": "https://github.com/gleb-mihalkov/bitrix-migrations-new"
+      },
+      {
+        "type": "vcs",
+        "url": "https://github.com/gleb-mihalkov/bitrix-monolog"
+      },
+      {
+        "type": "vcs",
+        "url": "https://github.com/gleb-mihalkov/bitrix-debug-bar"
+      },
+      {
+        "type": "vcs",
+        "url": "https://github.com/gleb-mihalkov/bitrix-admin-extension"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/"
+      }
+    },
+    "require": {
+      "composer/installers": "^1.3",
+      "gm/bitrix-models": "1.*",
+      "gm/bitrix-migrations": "1.*",
+      "gm/bitrix-monolog": "1.*",
+      "gm/bitrix-debug-bar": "1.*",
+      "gm/bitrix-admin-extension": "1.*",
+        "athari/yalinqo": "^2.4"
+    }
+}

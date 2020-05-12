@@ -1,0 +1,8 @@
+*.sublime-workspace
+/bitrix/*
+/upload/*
+/local/vendor/*
+/local/.settings.php
+/local/composer.lock
+/test.php
+*.log
